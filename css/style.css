@@ -43,9 +43,13 @@ header > header {
     border-bottom: solid 1px rgba(0,0,0,0.5);
 }
 
-header > img {
+header > img:first-of-type {
     width: 45px;
     height: 74px;
+}
+
+#menumobil {
+    display: none;
 }
 
 header > nav {
@@ -150,3 +154,29 @@ footer {
     background: red;
 }
 
+/* ---- Media Quiery -----*/
+
+@media screen and (max-width: 600px) {
+  
+  header > nav {
+      display: none;
+  }
+
+  #menumobil {
+      display: flex;
+      align-self: center;
+      width: 50px;
+      height: 50px;
+  }
+
+  h1 + p {
+      width: 95%;
+      margin-bottom: 10px;
+  }
+
+  .selecmenu {
+      border: solid 2px white;
+      margin: 10px;
+  }
+
+}
