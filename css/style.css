@@ -19,12 +19,15 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Raleway');
+
 body {
-    font-family: Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 div > header {
     background: linear-gradient(70deg, rgba(0,0,0,0.8), rgba(40,0,50,0.8));
+    min-height: 100vh;
 }
 
 #bc {
@@ -42,8 +45,8 @@ header > header {
 }
 
 header > img {
-    width: 50px;
-    height: 82px;
+    width: 45px;
+    height: 74px;
 }
 
 header > nav {
@@ -53,16 +56,16 @@ header > nav {
     align-content: center;
 }
 
-#menu {
+header ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: center;
 }
 
-.selecmenu {
+header li {
     display: block;
-    padding: 20px;
+    padding: 15px 20px;
     margin: 10px;
     background: rgba(255,255,255,0);
     color: white;
@@ -73,7 +76,12 @@ header > nav {
     text-decoration: none;
 }
 
-.selecmenu:hover {
+.selecmenu {
+    width: 300px;
+    font-size: 1.4em;
+}
+
+header li:hover {
     background: rgba(255,255,255,1);
     color: black;
 }
@@ -96,7 +104,7 @@ header > main {
 }
 
 #illuprincipal {
-    width: 150px;
+    width: 130px;
     display: flex;
     align-self: center;
 }
@@ -104,6 +112,7 @@ header > main {
 h1 {
     margin: 30px 0px 20px 0px;
     font-size: 3em;
+    font-family: 'Amatic SC', cursive;
 }
 
 h1 + p {
