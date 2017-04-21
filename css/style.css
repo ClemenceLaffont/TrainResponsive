@@ -3,11 +3,10 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
+b, u, i, center, dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
+article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
@@ -79,6 +78,11 @@ header li {
 .selecmenu {
     width: 300px;
     font-size: 1.4em;
+    margin: 30px 0px;
+}
+
+#menu {
+    flex-wrap: wrap;
 }
 
 header li:hover {
@@ -94,7 +98,7 @@ nav > img {
 }
 
 header > main {
-    padding: 20px;
+    padding: 30px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -104,13 +108,13 @@ header > main {
 }
 
 #illuprincipal {
-    width: 130px;
+    width: 110px;
     display: flex;
     align-self: center;
 }
 
 h1 {
-    margin: 30px 0px 20px 0px;
+    margin: 20px 0px;
     font-size: 3em;
     font-family: 'Amatic SC', cursive;
 }
