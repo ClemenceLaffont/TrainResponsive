@@ -1,65 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="title" content="TrainResponsive"/>
+    <meta name="title" content="TrainResponsive" />
     <meta name="description" content="Entrainement a faire un page web completement responsive, application des cours sur la structuration html et les selecteur css et les flexbox. Simplon 19/04/2017" />
     <meta name="autor" content="Clémence Laffont" />
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Raleway" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <title>TrainResponsive</title>
 </head>
+
 <body>
     <div id="bc">
-    <header>
         <header>
-            <img src="img/logo.png" />
-            <img src="img/mm.png" id="menumobil" />
-            <nav>
-                <ul>
-                    <li>Accueil</li>
-                    <li>Article</li>
-                    <li>Contact</li>
+            <header>
+                <img src="img/logo.png" />
+                <img src="img/mm.png" id="menumobil" />
+                <nav>
+                    <ul>
+                        <li>Accueil</li>
+                        <li>Article</li>
+                        <li>Contact</li>
+                    </ul>
+                    <img src="img/fb.png" />
+                    <img src="img/tw.png" />
+                </nav>
+            </header>
+            <main>
+                <img src="img/logo.png" id="illuprincipal" />
+                <h1>Décorateur d'interieur</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui atque, minima, odio ex voluptate ut minus, consequatur, distinctio quos veniam ducimus perferendis fugiat maxime totam blanditiis laboriosam culpa unde accusamus. Lorem ipsum
+                    dolor sit amet, consectetur adipisicing elit. Qui atque, minima, odio ex voluptate ut minus, consequatur, distinctio quos veniam ducimus perferendis fugiat maxime totam blanditiis laboriosam culpa unde accusamus. Lorem ipsum dolor
+                    sit amet, consectetur adipisicing elit.</p>
+                <ul id="menu">
+                    <li class="selecmenu">Information</li>
+                    <li class="selecmenu">Photos</li>
+                    <li class="selecmenu">Devis en ligne</li>
                 </ul>
-                <img src="img/fb.png" />
-                <img src="img/tw.png" />
-            </nav>
+            </main>
         </header>
-        <main>
-            <img src="img/logo.png" id="illuprincipal"/>
-            <h1>Décorateur d'interieur</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui atque, minima, odio ex voluptate ut minus, consequatur, distinctio quos veniam ducimus perferendis fugiat maxime totam blanditiis laboriosam culpa unde accusamus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui atque, minima, odio ex voluptate ut minus, consequatur, distinctio quos veniam ducimus perferendis fugiat maxime totam blanditiis laboriosam culpa unde accusamus. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            <ul id="menu">
-                <li class="selecmenu">Information</li>
-                <li class="selecmenu">Photos</li>
-                <li class="selecmenu">Devis en ligne</li>
-            </ul>
-        </main>
-    </header>
     </div>
     <main>
         <section>
             <h2>Information</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, saepe, fuga! Rerum vitae fugiat ad, provident, libero magni veniam velit saepe, facere, id culpa quam beatae totam illo earum praesentium.</p>
-            <ul>
-                <li>
-                    <img src="img/icone1.png" />
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum ipsum tempora, aspernatur ea eveniet, temporibus laudantium sit dignissimos consectetur soluta aut fugiat. Officiis in beatae maxime dicta harum sunt. Dolores!</p>
-                </li>
-                <li>
-                    <img src="img/icone2.png" />
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum ipsum tempora, aspernatur ea eveniet, temporibus laudantium sit dignissimos consectetur soluta aut fugiat. Officiis in beatae maxime dicta harum sunt. Dolores!</p>
-                </li>
-                <li>
-                    <img src="img/icone3.png" />
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum ipsum tempora, aspernatur ea eveniet, temporibus laudantium sit dignissimos consectetur soluta aut fugiat. Officiis in beatae maxime dicta harum sunt. Dolores!</p>
-                </li>
-                <li>
-                    <img src="img/icone4.png" />
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum ipsum tempora, aspernatur ea eveniet, temporibus laudantium sit dignissimos consectetur soluta aut fugiat. Officiis in beatae maxime dicta harum sunt. Dolores!</p>
-                </li>
+            <ul class="quatre">
+                <div class="ligne">
+                    <li>
+                        <img src="img/icone1.png" />
+                        <section>
+                            <h3>Paiement</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum ipsum tempora, aspernatur ea eveniet, temporibus laudantium sit dignissimos consectetur soluta aut fugiat. Officiis in beatae maxime dicta harum sunt. Dolores!</p>
+                        </section>
+                    </li>
+                    <li>
+                        <img src="img/icone2.png" />
+                        <section>
+                            <h3>Offre spécial</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum ipsum tempora, aspernatur ea eveniet, temporibus laudantium sit dignissimos consectetur soluta aut fugiat. Officiis in beatae maxime dicta harum sunt. Dolores!</p>
+                        </section>
+                    </li>
+                </div>
+                <div class="ligne">
+                    <li>
+                        <img src="img/icone3.png" />
+                        <section>
+                            <h3>Aménagement</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum ipsum tempora, aspernatur ea eveniet, temporibus laudantium sit dignissimos consectetur soluta aut fugiat. Officiis in beatae maxime dicta harum sunt. Dolores!</p>
+                        </section>
+                    </li>
+                    <li>
+                        <img src="img/icone4.png" />
+                        <section>
+                            <h3>Travaux</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum ipsum tempora, aspernatur ea eveniet, temporibus laudantium sit dignissimos consectetur soluta aut fugiat. Officiis in beatae maxime dicta harum sunt. Dolores!</p>
+                        </section>
+                    </li>
+                </div>
             </ul>
         </section>
         <section>
@@ -99,4 +119,5 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non delectus nostrum reprehenderit placeat facere incidunt in, iusto molestias commodi dolores quisquam odio, deleniti veritatis ducimus nemo? Et qui ipsa voluptatum.</p>
     </footer>
 </body>
+
 </html>
