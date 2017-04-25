@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -8,81 +8,80 @@
     <meta name="title" content="TrainResponsive" />
     <meta name="description" content="Entrainement a faire un page web completement responsive, application des cours sur la structuration html et les selecteur css et les flexbox. Simplon 19/04/2017" />
     <meta name="autor" content="Clémence Laffont" />
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Raleway" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="shortcut icon" href="img/logo.png">
     <title>TrainResponsive</title>
 </head>
 
 <body>
-    <div id="bc">
-        <header>
-            <header>
-                <img src="img/logo.png" />
-                <img src="img/mm.png" id="menumobil" />
+    <header>
+        <div id="bc">
+            <section>
+                <img src="img/logo.png" id="logo" alt="logo du header" />
+                <img src="img/mm.png" id="menumobil" alt="icone menu pour mobile" />
                 <nav>
                     <ul>
                         <li>Accueil</li>
                         <li>Article</li>
                         <li>Contact</li>
                     </ul>
-                    <img src="img/fb.png" />
-                    <img src="img/tw.png" />
+                    <img src="img/fb.png" alt="icone facebook" />
+                    <img src="img/tw.png" alt="icone twitter" />
                 </nav>
-            </header>
-            <main>
-                <img src="img/logo.png" id="illuprincipal" />
+            </section>
+            <section>
+                <img src="img/logo.png" id="illustration_principal" alt="illustration principal" />
                 <h1>Décorateur d'interieur</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui atque, minima, odio ex voluptate ut minus, consequatur, distinctio quos veniam ducimus perferendis fugiat maxime totam blanditiis laboriosam culpa unde accusamus. Lorem ipsum
                     dolor sit amet, consectetur adipisicing elit. Qui atque, minima, odio ex voluptate ut minus, consequatur, distinctio quos veniam ducimus perferendis fugiat maxime totam blanditiis laboriosam culpa unde accusamus. Lorem ipsum dolor
                     sit amet, consectetur adipisicing elit.</p>
-                <ul id="menu">
-                    <li class="selecmenu">Information</li>
-                    <li class="selecmenu">Photos</li>
-                    <li class="selecmenu">Devis en ligne</li>
+                <ul id="menu_header">
+                    <li class="selecteur_menu_header">Information</li>
+                    <li class="selecteur_menu_header">Photos</li>
+                    <li class="selecteur_menu_header">Devis en ligne</li>
                 </ul>
-            </main>
-        </header>
-    </div>
+            </section>
+        </div>
+    </header>
     <main>
-        <section id="quatre">
+        <section id="main_section_un">
             <h2>Information</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, saepe, fuga! Rerum vitae fugiat ad, provident, libero magni veniam velit saepe, facere, id culpa quam beatae totam illo earum praesentium.</p>
-            <ul>
-                <div class="ligne">
-                    <li>
-                        <img src="img/icone1.png" />
-                        <section>
-                            <h3>Paiement</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum ipsum tempora, aspernatur ea eveniet, temporibus laudantium sit dignissimos consectetur soluta aut fugiat. Officiis in beatae maxime dicta harum sunt. Dolores!</p>
-                        </section>
-                    </li>
-                    <li>
-                        <img src="img/icone2.png" />
-                        <section>
-                            <h3>Offre spécial</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum ipsum tempora, aspernatur ea eveniet, temporibus laudantium sit dignissimos consectetur soluta aut fugiat. Officiis in beatae maxime dicta harum sunt. Dolores!</p>
-                        </section>
-                    </li>
-                </div>
-                <div class="ligne">
-                    <li>
-                        <img src="img/icone3.png" />
-                        <section>
-                            <h3>Aménagement</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum ipsum tempora, aspernatur ea eveniet, temporibus laudantium sit dignissimos consectetur soluta aut fugiat. Officiis in beatae maxime dicta harum sunt. Dolores!</p>
-                        </section>
-                    </li>
-                    <li>
-                        <img src="img/icone4.png" />
-                        <section>
-                            <h3>Travaux</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum ipsum tempora, aspernatur ea eveniet, temporibus laudantium sit dignissimos consectetur soluta aut fugiat. Officiis in beatae maxime dicta harum sunt. Dolores!</p>
-                        </section>
-                    </li>
-                </div>
+            <ul class="ligne">
+                <li>
+                    <img src="img/icone1.png" alt="illustration paiement" />
+                    <section>
+                        <h3>Paiement</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum ipsum tempora, aspernatur ea eveniet, temporibus laudantium sit dignissimos consectetur soluta aut fugiat. Officiis in beatae maxime dicta harum sunt. Dolores!</p>
+                    </section>
+                </li>
+                <li>
+                    <img src="img/icone2.png" alt="illustration offres specials" />
+                    <section>
+                        <h3>Offre spécial</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum ipsum tempora, aspernatur ea eveniet, temporibus laudantium sit dignissimos consectetur soluta aut fugiat. Officiis in beatae maxime dicta harum sunt. Dolores!</p>
+                    </section>
+                </li>
+            </ul>
+            <ul class="ligne">
+                <li>
+                    <img src="img/icone3.png" alt="illustration amenagement" />
+                    <section>
+                        <h3>Aménagement</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum ipsum tempora, aspernatur ea eveniet, temporibus laudantium sit dignissimos consectetur soluta aut fugiat. Officiis in beatae maxime dicta harum sunt. Dolores!</p>
+                    </section>
+                </li>
+                <li>
+                    <img src="img/icone4.png" alt="illustration travaux" />
+                    <section>
+                        <h3>Travaux</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum ipsum tempora, aspernatur ea eveniet, temporibus laudantium sit dignissimos consectetur soluta aut fugiat. Officiis in beatae maxime dicta harum sunt. Dolores!</p>
+                    </section>
+                </li>
             </ul>
         </section>
-        <section id="trois">
+        <section id="main_section_deux">
             <h2>Photos</h2>
             <iframe src="https://www.youtube.com/embed/KGBNr7iKxI4?ecver=1" frameborder="0" allowfullscreen></iframe>
             <ul>
@@ -103,19 +102,21 @@
     </main>
     <footer>
         <section>
-
+            <img src="img/logo.png" alt="logo footer" />
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi aperiam illo, quam quae obcaecati aliquid voluptas nam recusandae voluptate, saepe unde reiciendis maxime, iste nesciunt sit atque eius numquam suscipit.</p>
         </section>
-        <nav>
-            <ul>
-                <li>Accueil</li>
-                <li>Article</li>
-                <li>Contact</li>
-                <li>Photos</li>
-                <li>Devis</li>
-            </ul>
-        </nav>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non delectus nostrum reprehenderit placeat facere incidunt in, iusto molestias commodi dolores quisquam odio, deleniti veritatis ducimus nemo? Et qui ipsa voluptatum.</p>
+        <section>
+            <nav>
+                <ul>
+                    <li>Accueil</li>
+                    <li>Article</li>
+                    <li>Contact</li>
+                    <li>Photos</li>
+                    <li>Devis</li>
+                </ul>
+            </nav>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non delectus nostrum reprehenderit placeat facere incidunt in, iusto molestias commodi dolores quisquam odio, deleniti veritatis ducimus nemo? Et qui ipsa voluptatum.</p>
+        </section>
     </footer>
 </body>
 
