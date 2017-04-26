@@ -85,6 +85,7 @@ video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    text-decoration: none;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Raleway');
@@ -355,6 +356,14 @@ footer ul {
 footer li {
     display: block;
     padding: 20px;
+}
+
+footer a {
+    color: #dadada;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
 
 
