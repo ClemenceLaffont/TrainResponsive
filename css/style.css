@@ -358,8 +358,8 @@ footer li {
     padding: 20px;
 }
 
-footer a {
-    color: #dadada;
+a {
+    color: inherit;
 }
 
 footer a:hover {
