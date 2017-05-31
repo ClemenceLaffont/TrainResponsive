@@ -11,7 +11,8 @@
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Raleway" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
     <link rel="stylesheet" type="text/css" href="css/style2.css" />
-    <link rel="shortcut icon" href="img/logo.png">
+    <link rel="shortcut icon" href="img/logo.png" />
+    <script type="text/javascript" src="js/js.js"></script>
     <title>TrainResponsive</title>
 </head>
 
@@ -23,13 +24,94 @@
                 <a href="index.html">Accueil</a>
                 <a href="article.html">Article</a>
                 <a href="#">Contact</a>
-                <a href="#" value="icone facebook"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
-                <a href="#" value="icone twitter"><i class="fa fa-twitter-square  fa-2x" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter-square  fa-2x" aria-hidden="true"></i></a>
             </nav>
         </section>
     </header>
     <main>
-        kjjgljuhg
+        <fieldset>
+            <legend>Inscription</legend>
+            <form method="POST" action="form.php">
+                <section class="formu">
+                    <section class="part_form">
+                        <label for="pseudo">
+                            Pseudo*
+                        </label>
+                        <input type="text" id="pseudo" name="pseudo" placeholder="Exemple42" />
+                        <label for="mdp">
+                            Mot de passe*
+                        </label>
+                        <input type="password" id="mdp" name="mdp" />
+                        <label for="confirme">
+                            Confirmation du mot de passe
+                        </label>
+                        <input type="password" id="confirme" name="confirme" />
+                    </section>
+                    <section class="part_form">
+                        <div>
+                            <input type="radio" name="sexe" id="madame" /><label for="madame">
+                                Madame
+                            </label>
+                            <input type="radio" name="sexe" id="monsieur" /><label for="monsieur">
+                                Monsieur
+                            </label>
+                            <input type="radio" name="sexe" id="mademoiselle" /><label for="mademoiselle">
+                                Mademoiselle
+                            </label>
+                        </div>
+                        <label for="nom">
+                            Nom
+                        </label>
+                        <input type="text" id="nom" name="nom" placeholder="Nom" />
+                        <label for="prenom">
+                            Prénom
+                        </label>
+                        <input type="text" id="prenom" name="prenom" />
+                        <label for="mail">
+                            Email*
+                        </label>
+                        <input type="email" id="mail" name="mail" />
+                    </section>
+                    <section class="part_form">
+                        <label for="adresse">
+                            Adresse
+                        </label>
+                        <input type="text" id="adresse" name="adresse" />
+                        <label for="complement">
+                            Complement d'adresse
+                        </label>
+                        <input type="text" id="complement" name="complement" />
+                        <div>
+                            <div>
+                                <label for="postal">
+                                    Code Postal
+                                </label>
+                                <input type="number" id="postal" name="postal" />
+                            </div>
+                            <div>
+                                <label for="ville">
+                                    Ville
+                                </label>
+                                <input type="text" id="ville" name="ville" />
+                            </div>
+                        </div>
+                        <label for="num">
+                            Numéro de téléphone
+                        </label>
+                        <input type="number" id="num" name="num" />
+                    </section>
+                </section>
+                <section>
+                    <input type="checkbox" id="condition" name="condition" />
+                    <label for="condition">
+                        J'accèpte les conditions utilisateurs.*
+                    </label>
+                    <input type="reset" name="reset" value="Annuler" />
+                    <input type="submit" name="submit" value="Envoyer" />
+                </section>
+            </form>
+        </fieldset>
     </main>
 </body>
 

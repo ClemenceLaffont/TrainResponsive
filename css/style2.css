@@ -100,7 +100,6 @@ header {
     background: url(../img/bc.jpg);
     background-position: center center;
     background-repeat: no-repeat;
-    margin-bottom: auto;
 }
 
 #bc {
@@ -157,5 +156,28 @@ nav>a>img {
 }
 
 main {
-    flex-grow: 1 1 auto;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+form {
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.formu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.part_form {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    margin: 10px;
 }
