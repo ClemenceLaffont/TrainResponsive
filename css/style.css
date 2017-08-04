@@ -115,7 +115,7 @@ header section:first-child {
 }
 
 #logo {
-    width: 45px;
+    fill: white;
     height: 74px;
 }
 
@@ -177,9 +177,10 @@ header section:last-child {
 }
 
 #illustration_principal {
-    width: 110px;
+    width: 170px;
     display: flex;
     align-self: center;
+    fill: white;
 }
 
 h1 {
